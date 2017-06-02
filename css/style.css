@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#main-menu {
+  list-style: none;
+}
+#main-menu li {
+  text-align: center;
+}
+#list-table {
+  border: 1px solid black;
+  padding: 10px;
+}
+#list-table th, #list-table td {
+  padding-left: 5px;
+}
+#list-table tr:nth-child(even) {
+  background-color: grey;
+}
